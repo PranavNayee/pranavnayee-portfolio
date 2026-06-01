@@ -50,7 +50,7 @@ const Contact = () => {
               Twitter <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/still_alive163"
+              href="https://www.instagram.com/still_alive153"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
