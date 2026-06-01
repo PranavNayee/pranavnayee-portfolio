@@ -4,40 +4,32 @@ import WorkImage from "./WorkImage";
 const Work = () => {
   const projects = [
     {
-      title: "Revereate Web (CTO / Tech Lead)",
-      category: "Full-Stack Web Development & Digital Marketing",
-      tools: "React, Next.js, Node.js, Express, SEO, Google Analytics",
-      image: "/images/react.webp"
+      title: "SMSF Administration & Accounting Platform",
+      category: "Enterprise AI-Powered SaaS • Cloud-Based • Multi-Tenant Architecture",
+      tools: "React, Next.js, Node.js, PostgreSQL, WebSockets, OpenAI, Claude AI",
+      description: "An enterprise-grade SaaS platform for Australian accountants, auditors, trustees, and financial advisors. Streamlines SMSF administration through automation, AI-powered workflows, compliance monitoring, and advanced financial reporting.",
+      image: "/images/smsf.png"
     },
     {
-      title: "SDE at Amazon",
-      category: "Large-Scale Software Development",
-      tools: "AWS, CI/CD, Distributed Systems, Python, Java",
-      image: "/images/placeholder.webp"
+      title: "GSTR-7 Auto Filer",
+      category: "GST Filing Automation • Multi-Client Processing • Audit Logs",
+      tools: "Python, Selenium, Gmail API, Google Sheets, Pandas",
+      description: "A complete GST return filing automation solution for tax professionals and Chartered Accountants. Automates the entire GSTR-7 filing process — reduced manual filing from several hours to just a few minutes.",
+      image: "/images/gstr7.png"
     },
     {
-      title: "E-Commerce Portal",
-      category: "Web Development & Payment Integration",
-      tools: "React, Node.js, Payment Gateway, MongoDB",
-      image: "/images/javascript.webp"
+      title: "Eye Station Opticians Web Application",
+      category: "Full Stack Business Management System • SEO Optimized",
+      tools: "HTML, CSS, JavaScript, PHP, MySQL",
+      description: "A full-stack web application for an optical store to manage products, appointments, and customer interactions while improving online visibility through SEO and digital marketing.",
+      image: "/images/eyestation.png"
     },
     {
-      title: "B2B Lead Generation Platform",
-      category: "Business Solution Development",
-      tools: "Next.js, CRM Integration, MySQL",
-      image: "/images/next1.webp"
-    },
-    {
-      title: "Corporate Website (SEO Optimized)",
-      category: "Web Design & Digital Marketing",
-      tools: "HTML, CSS, JavaScript, SEO",
-      image: "/images/express.webp"
-    },
-    {
-      title: "3D Character & Environment Design",
-      category: "3D Design & Animation",
-      tools: "Blender, ZBrush, Rigging, Three.js",
-      image: "/images/node2.webp"
+      title: "Mahaveer Granite Website",
+      category: "SEO Optimized Business Website • Lead Generation",
+      tools: "HTML, CSS, JavaScript, Firebase Hosting",
+      description: "A modern business website for Shree Mahaveer Granite to establish a strong online presence, generate leads, and improve search engine visibility through SEO best practices.",
+      image: "/images/mahaveer.png"
     }
   ];
 
@@ -58,7 +50,8 @@ const Work = () => {
                     <p>{project.category}</p>
                   </div>
                 </div>
-                <h4>Tools and features</h4>
+                <p>{project.description}</p>
+                <h4>Tech Stack</h4>
                 <p>{project.tools}</p>
               </div>
               <WorkImage image={project.image} alt={project.title} />
