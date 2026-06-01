@@ -12,8 +12,8 @@ const Contact = () => {
             <p>Ahmedabad, Gujarat, India</p>
             <h4>Email</h4>
             <p>
-              <a href="mailto:pranavnayee2004@gmail.com" data-cursor="disable">
-                pranavnayee2004@gmail.com
+              <a href="mailto:nayeepranav727@gmail.com" data-cursor="disable">
+                nayeepranav727@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
