@@ -120,4 +120,17 @@ body {
   .techstack h2 {
     font-size: 40px;
   }
+  /* Add bottom padding so fixed social bar doesn't overlap content */
+  #smooth-content {
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    --cWidth: calc(100% - 24px);
+  }
+  .techstack h2 {
+    font-size: 28px;
+    top: 80px;
+  }
 }

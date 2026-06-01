@@ -3,7 +3,7 @@
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 15px 15px;
   margin-bottom: -100px;
   box-sizing: border-box;
   position: fixed;
@@ -11,17 +11,18 @@
   transform: translateX(-50%);
   top: 0;
   z-index: 9999;
+  align-items: center;
 }
 .header ul {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
+  column-gap: 18px;
   row-gap: 8px;
-  align-items: end;
+  align-items: center;
 }
 .header ul li {
   margin-left: 0px;
@@ -53,6 +54,7 @@
     flex-direction: row;
     align-items: center;
     font-size: 14px;
+    column-gap: 40px;
   }
   .header ul li {
     color: #eae5ec;

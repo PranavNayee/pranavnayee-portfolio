@@ -25,6 +25,7 @@
 .contact-flex p {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 a.contact-social {
   font-size: 25px;
@@ -88,5 +89,32 @@ a.contact-social {
   }
   .contact-container {
     width: calc(100% - 25px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact-section h3 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+  .contact-section {
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+  .contact-flex {
+    gap: 30px;
+  }
+  .contact-flex p {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  a.contact-social {
+    font-size: 17px;
+  }
+  .contact-box h2 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .contact-box h5 {
+    font-size: 15px;
   }
 }
