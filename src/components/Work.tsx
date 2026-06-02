@@ -8,14 +8,14 @@ const Work = () => {
       category: "Enterprise AI-Powered SaaS • Cloud-Based • Multi-Tenant Architecture",
       tools: "React, Next.js, Node.js, PostgreSQL, WebSockets, OpenAI, Claude AI",
       description: "An enterprise-grade SaaS platform for Australian accountants, auditors, trustees, and financial advisors. Streamlines SMSF administration through automation, AI-powered workflows, compliance monitoring, and advanced financial reporting.",
-      image: "/images/smsf.webp"
+      image: "/images/gstr7.webp"
     },
     {
       title: "GSTR-7 Auto Filer",
       category: "GST Filing Automation • Multi-Client Processing • Audit Logs",
       tools: "Python, Selenium, Gmail API, Google Sheets, Pandas",
       description: "A complete GST return filing automation solution for tax professionals and Chartered Accountants. Automates the entire GSTR-7 filing process — reduced manual filing from several hours to just a few minutes.",
-      image: "/images/gstr7.webp"
+      image: "/images/smsf.webp"
     },
     {
       title: "Eye Station Opticians Web Application",
